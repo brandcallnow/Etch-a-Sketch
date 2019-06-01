@@ -1,0 +1,32 @@
+body {
+  background-color: black;
+}
+.grid {
+  margin: 0 auto;
+  width:80vh;
+  max-width: 60vh;
+  height: 80vw;
+  max-height: 0vh;
+  font-size: 1rem;
+}
+.row {
+  display: flex;
+}
+.grid-item {
+  background: white;
+  
+  color: white;
+  font-weight: bold;
+  flex: 1 0 auto;
+  position: relative;
+}
+.grid-item:after {
+  content: "";
+  float:left;
+  display: block;
+  padding-top: 100%;
+}
+.colorReset {
+
+
+}
